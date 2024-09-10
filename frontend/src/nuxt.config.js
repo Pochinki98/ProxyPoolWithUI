@@ -50,6 +50,6 @@ export default {
 
     env: {
         AXIOS_BASE_URL: // 浏览器访问后端的地址
-            process.env.NODE_ENV === 'production' ? '/' : 'http://localhost:5000'
+            process.env.NODE_ENV === 'production' ? '/' : 'http://localhost:888'
     }
 };
